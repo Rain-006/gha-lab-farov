@@ -12,3 +12,5 @@ jobs:
         run: echo "Запустил: ${{ github.actor }}"
       - name: Секрет
         run: echo "Секрет: ${{ secrets.MY_SECRET }}"
+
+
